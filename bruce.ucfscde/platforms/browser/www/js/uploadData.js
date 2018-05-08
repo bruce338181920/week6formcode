@@ -3,13 +3,13 @@
 function startDataUpload() {
 	alert ("start data upload");
 
-	var name = document.getElementById("name").value;
+	var Change = document.getElementById("Change").value;
 	var surname = document.getElementById("surname").value;
 	var module = document.getElementById("module").value;
 
-	alert(name + " "+ surname + " "+module);
+	alert(Change + " "+ surname + " "+module);
 	
-	var postString = "name="+name +"&surname="+surname+"&module="+module;
+	var postString = "Change="+Change +"&surname="+surname+"&module="+module;
 	
 		// now get the checkbox values - separate them with a | so that they can be // split later on if necessary
 	var checkString = "";
